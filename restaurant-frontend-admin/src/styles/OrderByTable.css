@@ -1,0 +1,132 @@
+/* OrdersByTable.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.orders-by-table {
+    padding: 20px;
+    background-color: transparent; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+}
+
+.table-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #333; 
+    border-radius: 8px;
+    background-color: #1e1e1e; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.table-section:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.table-section h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff; 
+    margin-bottom: 15px;
+    text-transform: uppercase; 
+}
+
+.order-item {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.order-item:hover {
+    background-color: #3b3b3b; 
+}
+
+.order-item p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #ddd;
+}
+
+.order-item ul {
+    list-style-type: none; 
+    padding-left: 0;
+    margin: 0; 
+}
+
+.order-item li {
+    font-size: 14px;
+    color: #bbb; 
+    margin-bottom: 5px;
+}
+
+.order-item li:last-child {
+    margin-bottom: 0;
+}
+
+.order-item li strong {
+    color: #ffffff; 
+}
+
+ul {
+    padding-left: 0; 
+    list-style-type: none; 
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .orders-by-table {
+        padding: 15px;
+    }
+
+    .table-section {
+        padding: 15px;
+    }
+
+    .order-item {
+        padding: 12px;
+    }
+
+    .order-item p {
+        font-size: 14px;
+    }
+
+    .order-item li {
+        font-size: 12px;
+    }
+}
+
+
+
+.order-item .price {
+    font-size: 15px; 
+    color: #aaa;     
+    font-weight: 400;
+  }
+  
+  
+  .order-item li .item-name {
+    font-size: 18px; 
+    color: #fff;
+    font-weight: 600;
+  }

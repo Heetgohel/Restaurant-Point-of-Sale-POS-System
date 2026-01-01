@@ -1,0 +1,131 @@
+.menu-page {
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #000;
+    min-height: 100vh;
+    color: #fff; 
+  }
+  
+  .menu-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff; 
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .category-btn {
+    background-color: #222;
+    border: 1px solid #444;
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .category-btn.active {
+    background-color: #ffb703;
+    color: #000;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .menu-card {
+    background-color: #111;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .menu-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .availability {
+    font-size: 0.9rem;
+    color: #00ff00;
+  }
+  
+  .jain {
+    font-size: 0.85rem;
+    color: #007bff;
+  }
+
+
+  .add-product-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .add-product-button:hover {
+    background-color: #0096c7;
+  }
+  
+  
+  .add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffb703;
+    color: #000;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+
+  .add-category-btn {
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-category-btn:hover {
+  background-color: #0096c7;
+}
+
+  
+
+  

@@ -1,0 +1,91 @@
+.table-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+  
+    /* background-color: #111; */
+    border-radius: 8px;
+  }
+  
+  .table-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-row {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-row input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+  
+  .input-row button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .action-message {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #00ff00;
+  }
+  
+  .table-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 15px;
+  }
+  
+  .table-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 150px;
+  }
+  
+  .table-card.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table-card.inactive {
+    background-color: #555;
+    color: #ccc;
+  }
+  
+  .table-card .status-btn,
+  .table-card .remove-btn {
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .status-btn.active {
+    background-color: #f39c12; 
+  }
+  
+  .status-btn.inactive {
+    background-color: #27ae60; 
+  }
+  
+  .remove-btn {
+    background-color: #e74c3c;
+    margin-left: 8px;
+  }
+  
