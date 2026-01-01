@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Pizza",
+    "category": "kitchen",
+    "description": "Classic Italian pizza with fresh mozzarella and basil.",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=200&q=80",
+    "jainAvailable": true
+  },
+  {
+    "name": "Pasta Alfredo",
+    "category": "kitchen",
+    "description": "Creamy Alfredo pasta with parmesan and herbs.",
+    "price": 10.5,
+    "image": "https://images.unsplash.com/photo-1603133872871-761f1e72b5d9?auto=format&fit=crop&w=200&q=80",
+    "jainAvailable": false
+  },
+  {
+    "name": "Coke",
+    "category": "drinks",
+    "description": "Chilled Coca-Cola beverage.",
+    "price": 1.99,
+    "image": "https://images.unsplash.com/photo-1590642912658-e5de89c77c8f?auto=format&fit=crop&w=200&q=80",
+    "jainAvailable": true
+  },
+  {
+    "name": "Mango Lassi",
+    "category": "drinks",
+    "description": "Sweet mango yogurt drink served cold.",
+    "price": 2.5,
+    "image": "https://images.unsplash.com/photo-1609334768858-b5c6b38183d3?auto=format&fit=crop&w=200&q=80",
+    "jainAvailable": true
+  },
+  {
+    "name": "Chocolate Ice Cream",
+    "category": "desserts",
+    "description": "Rich and creamy chocolate ice cream scoop.",
+    "price": 3.25,
+    "image": "https://images.unsplash.com/photo-1603201667141-4aa3f4c87c83?auto=format&fit=crop&w=200&q=80",
+    "jainAvailable": true
+  },
+  {
+    "name": "Gulab Jamun",
+    "category": "desserts",
+    "description": "Soft fried milk balls soaked in sugar syrup.",
+    "price": 2.75,
+    "image": "https://images.unsplash.com/photo-1630874847254-9f8b22b64c1f?auto=format&fit=crop&w=200&q=80",
+    "jainAvailable": true
+  }
+]

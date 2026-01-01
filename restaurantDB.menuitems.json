@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "681a86aec5f093898e5b7d0c"
+  },
+  "name": "Dosa",
+  "category": "South Indian",
+  "availability": true,
+  "description": "nice",
+  "price": 100,
+  "image": "https://thumbs.dreamstime.com/b/homemade-dosa-dhosa-masala-plain-maisuri-ghee-roast-chutney-sambar-banana-leaf-isolated-south-indian-breakfast-205193390.jpg",
+  "jainAvailable": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681a8b7150853523db88965c"
+  },
+  "name": "Coke can",
+  "category": "drinks",
+  "availability": true,
+  "description": "cold",
+  "price": 700,
+  "image": "https://i5.walmartimages.com/asr/e3e510eb-3379-4ce5-a8e2-31f45ed5a47e.c99ca9cb61a8a839c23892605149d63b.jpeg",
+  "jainAvailable": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681e64298c2da9f1c69bc1d0"
+  },
+  "name": "Cake",
+  "category": "Dessert",
+  "availability": true,
+  "description": "Sweet",
+  "price": 500,
+  "image": "https://www.fnp.com//images/pr/l/v20240930125607/chocolate-truffle-cream-cake-half-kg_1.jpg",
+  "jainAvailable": false,
+  "__v": 0
+}]
