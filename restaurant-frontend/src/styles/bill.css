@@ -1,0 +1,108 @@
+.bill-container {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .bill-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bill-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bill-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bill-total {
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #ffb703;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .back-button:hover {
+    background-color: #ffa500;
+  }
+  
+
+  .order-entry{
+    color: #ffffff;
+  }
+  
+
+  .order-history-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    color: #fff;
+  }
+  
+  .order-history-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .order-entry {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .order-time {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #aaa;
+  }
+  
+  .order-items {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .order-items li {
+    margin: 4px 0;
+  }
+  
+  .order-price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #ffb703;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
