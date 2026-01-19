@@ -34,6 +34,3 @@
 - Real-time data synchronization
 - Multi-user role management
 - Database design and operations
----
-
-This format is much more user-friendly and visually appealing! The emojis help users quickly scan and understand different secti
