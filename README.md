@@ -14,10 +14,10 @@
 - **🔧 Backend API**: Centralized server handling all business logic
 
 ### 💻 Technology Stack
-- **Frontend**: ⚛️ React.js for interactive user interfaces
-- **Backend**: 🟢 Node.js + Express.js for robust API development
-- **Database**: 🍃 MongoDB for flexible data storage
-- **Language**: 📝 JavaScript
+- **Frontend**:  React.js for interactive user interfaces
+- **Backend**:  Node.js + Express.js for robust API development
+- **Database**:  MongoDB for flexible data storage
+- **Language**:  JavaScript
 
 ### ✨ Key Features
 - 📱 **Order Management**: Seamless order creation, modification, and tracking
