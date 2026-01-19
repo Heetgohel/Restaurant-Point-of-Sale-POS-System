@@ -17,7 +17,7 @@
 - **Frontend**: ⚛️ React.js for interactive user interfaces
 - **Backend**: 🟢 Node.js + Express.js for robust API development
 - **Database**: 🍃 MongoDB for flexible data storage
-- **Language**: 📝 JavaScript (67.4%)
+- **Language**: 📝 JavaScript
 
 ### ✨ Key Features
 - 📱 **Order Management**: Seamless order creation, modification, and tracking
