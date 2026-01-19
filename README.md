@@ -1,4 +1,3 @@
-# Restaurant-Point-of-Sale-POS-System
  📋 Project Abstract
 
 **Restaurant Point of Sale (POS) System** - A complete digital solution for modern restaurant management
